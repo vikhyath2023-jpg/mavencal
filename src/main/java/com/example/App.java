@@ -1,10 +1,21 @@
 package com.example;
-public class App {
-    public String getGrade(int marks) {
-        if (marks >= 80) return "A";
-        else if (marks >= 60) return "B";
-        else if (marks >= 40) return "C";
-        else return "D";
-    }
-}
 
+public class App {
+
+    public int add(int a, int b){
+        return a + b;
+    }
+
+    public int subtract(int a, int b){
+        return a - b;
+    }
+
+    public int multiply(int a, int b){
+        return a * b;
+    }
+
+    public int divide(int a, int b){
+        return a / b;
+    }
+
+}
